@@ -7,45 +7,100 @@
     <title>MS Electromedicina - Home</title>
     <!--Importación de estilos de Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"> <!--estilos personalizados -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> <!--iconos-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <style>
-        *{border: 1px solid blue;}
-    </style>
 </head>
+
 <body>
     <main class="container">
-        <header class="row">
+        <header class="row bg-primary">
             <div class="col-12 col-sm-2 col-md-2"> 
-                LOGO
+                <img class="border border-light" src="./images/transpLogo.png" width="80vw">
             </div>
-            <nav class="navbar col-12 col-sm-10 col-md-8">
-                NAVBAR
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary col-12 col-sm-10 col-md-8">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active " href="./index.html">Home</a>
+                        <a class="nav-item nav-link" href="pages/about.html">Nosotros</a>
+                        <a class="nav-item nav-link" href="pages/services.html">Servicios</a>
+                        <a class="nav-item nav-link" href="pages/services.html">Productos</a>
+                        <a class="nav-item nav-link" href="pages/contact.html">Contacto</a>
+                    </div>
+                </div>
             </nav>
-            <div class="col-12 col-sm-12 col-md-2">
-                SOCIAL
+            <div class="navbar-nav navbar-expand social col-12 col-sm-2 col-md-2">
+                <a href="https://www.facebook.com/" target="_blank" class="nav-item nav-link"><i class="bi bi-facebook"></i></a>
+			    <a href="https://www.twitter.com/martinutn" target="_blank" class="nav-item nav-link"><i class="bi bi-twitter"></i></a>
+			    <a href="https://www.linkedin.com/in/mfsubotich" target="_blank" class="nav-item nav-link"><i class="bi bi-linkedin"></i></a>
             </div>
         </header>
         
         <section class="row">
-            <h1>Acá va a ir el carrusel</h1>
+            <h1 class="sectionTitle">Novedades</h1>
+            <div id="newsCarousel" class="carousel slide w-100" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/news1.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block text-dark difuse">
+                        <h5>¡Instalamos NNNNNN en el hospital XXXXXX!</h5>
+                        <a class="text-dark" href="pages/products.html"><p>Un nuevo sistema de gestión de datos de pacientes confiable y rápido</p></a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/news2.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block text-dark difuse">
+                        <h5>Nueva cobertura de servicio para RX digital</h5>
+                        <a class="text-dark" href="pages/services.html"><p>Ideal para equipos de alto volumen de producción</p></a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/news3.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block text-dark difuse">
+                        <h5>¡Cerramos contrato con el hospital XXXXXX!</h5>
+                        <p>Somos servicio oficial para sus instalaciones. ¡Gracias por confiar en nosotros!</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Siguiente</span>
+                </a>
+              </div>
         </section>
 
-        <footer class="row">
-            <div class="col-12 col-sm-2 col-md-2"> 
-                CEL y MAIL
-            </div>
-            <nav class="navbar col-12 col-sm-10 col-md-8">
-                Copyright
-            </nav>
-            <div class="col-12 col-sm-12 col-md-2">
-                Mapa
+        <section class="row">
+            <h3 class="sectionTitle">Marcas que confían en nuestro servicio</h3>
+            <img class="d-block w-100" src="images/brandBanner.png" alt="First slide">
+        </section>
+
+        <footer class="text-center text-lg-start text-light bg-primary w-100">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase sectionTitle">MS Electromedicina</h6>
+                        <p>contacto@mselectromedicina.com</p>
+                        <p>+54 9 299 577 4679</p>
+                        © 2022 Copyright:
+                        <a class="text-reset fw-bold" href="https://www.linkedin.com/in/mfsubotich" target="_blank">Marín Subotich</a>
+                    </div>
+                </div>
             </div>
         </footer>
     </main>
-
-    <!--Scripts necesarios para funcionalidad de Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </body>
 </html>

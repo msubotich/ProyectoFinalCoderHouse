@@ -1,0 +1,38 @@
+/*{border: 1px solid #0741ad;}*/
+        
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding-inline: 5%;
+    font-size: large;
+    transform: translateX(-5vw);
+}
+
+.navbar-nav .active{
+    color: gold !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+.bg-primary {
+    background-color: #0741ad !important;
+}
+
+.social i{
+    font-size: xx-large;
+    line-height: 4vw;
+    margin-right: 1vw;
+}
+
+.difuse{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    line-height: 0.5vw;
+    font-weight: bold;
+}
+
+.sectionTitle{
+    margin: 2% 0 2% 0;
+}
