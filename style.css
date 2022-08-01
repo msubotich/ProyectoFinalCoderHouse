@@ -1,8 +1,16 @@
 /*{border: 1px solid #0741ad;}*/
-        
+
+a{
+    text-decoration: none !important;
+}
+
+footer{
+    line-height: 0.8vw;
+    padding: 1%;
+}
 .navbar-light .navbar-nav .nav-link {
     color: white;
-    padding-inline: 5%;
+    padding-inline: 1vw;
     font-size: large;
     transform: translateX(-5vw);
 }
@@ -35,4 +43,13 @@
 
 .sectionTitle{
     margin: 2% 0 2% 0;
+}
+
+.d-block a{
+    font-size: small;
+    white-space: nowrap;
+}
+
+.overflowing{
+    overflow: hidden;
 }
