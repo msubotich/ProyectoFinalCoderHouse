@@ -24,10 +24,10 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav text-light">
                     <a class="nav-item nav-link" href="../index.html">Home</a>
-                    <a class="nav-item nav-link active" href="./about.html">Nosotros</a>
+                    <a class="nav-item nav-link" href="./about.html">Nosotros</a>
                     <a class="nav-item nav-link" href="./services.html">Servicios</a>
-                    <a class="nav-item nav-link" href="./pages/services.html">Productos</a>
-                    <a class="nav-item nav-link" href="./contact.html">Contacto</a>
+                    <a class="nav-item nav-link" href="./products.html">Productos</a>
+                    <a class="nav-item nav-link active" href="./contact.html">Contacto</a>
                     </div>
                 </div>
             </nav>
@@ -38,24 +38,29 @@
             </div>
         </header>
         
-        <section class="row">
-            <div class="bannerWithText w-100">
-                <img class="w-100" src="../images/medBanner.png" alt="quirófano inteligente" style="height: 15vw;">
-                <h1 class="textCentered">¿Quiénes Somos?</h1>
+        <section class="form-group row">
+            <div class="w-100 bannerWithText" style="margin-bottom: 2%; text-align: center;">
+                <img src="../images/contactBanner.jpg" alt="equipos medicos" width="100%" height="200vw" style="margin-bottom: 2%;"/>
+                <h1 class="textCentered"> Contáctenos</h1>
             </div>
-            <div class="w-100 text-center" style="margin: 2% 0 2% 0;">
-                <p class="lead">
-                    Somos una empresa dedicada al servicio técnico con más de diez años de experiencia y vocación de servicio. Sabemos la importancia del equipamiento en cada área de su empresa y queremos brindar el mejor servicio posible para que el flujo de trabajo no se interrumpa.
-                </p>
-                <img class="w-50" src="../images/pSpacer.jpg" alt="espaciador">
-                <p class="lead">
-                    Cuidamos cada etapa del servicio para garantizar una óptima calidad y fiabilidad. Creemos en la capacitación contínua y la mejora de los procesos como pilares de la excelencia. Consideramos a nuestos técnicos nuestro mejor activo y a nuestros clientes, la principal prioridad.
-                </p>
-                <img class="w-50" src="../images/pSpacer.jpg" alt="espaciador">
-                <h1>Nuestra meta es que usted alcance las suyas.</h1>
+            <div id="contactData" class="col-12 col-sm-6 col-md-4">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" name="name" id="contactname">
+                <label for="surname">Apellido</label>
+                <input type="text" class="form-control" name="surname" id="contactsurname">
+                <label for="mail">eMail</label>
+                <input type="mail" class="form-control" name="mail" id="contactmail">
             </div>
-
+            <div id="contactMessage" class="col-12 col-sm-6 col-md-8">
+                <label for="message">Consulta</label>
+                <textarea name="message" class="form-control" id="contactmeesage" cols="30" rows="10"></textarea>
+            </div>
+            <div class="btn-group" style="margin: 1% 0 3% 10%;">
+                <button class="btn-success" type="submit" style="margin-right: 10%;">Enviar</button>
+                <button class="btn-danger" type="reset">Borrar</button>
+            </div>
         </section>
+
         <footer class="row text-center text-light bg-primary order-1">
             <div class="col-12 col-sm-12 col-md-3 text-justify">
                 <h6 class="text-uppercase sectionTitle">MS   Electromedicina</h6>

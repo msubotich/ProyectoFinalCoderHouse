@@ -53,3 +53,20 @@ footer{
 .overflowing{
     overflow: hidden;
 }
+
+.bannerWithText {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:1% 0 2% 0;
+}
+
+.textCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 4vw;
+    border-radius: 10px;
+}
