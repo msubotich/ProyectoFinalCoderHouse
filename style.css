@@ -1,9 +1,6 @@
-/*{border: 1px solid #0741ad;}*/
-
 a{
     text-decoration: none !important;
 }
-
 footer{
     line-height: 0.8vw;
     padding: 1%;
@@ -14,7 +11,6 @@ footer{
     font-size: large;
     transform: translateX(-5vw);
 }
-
 .navbar-nav .active{
     color: gold !important;
 }
@@ -23,44 +19,36 @@ footer{
     color: white;
     font-weight: bolder;
 }
-
 .bg-primary {
     background-color: #0741ad !important;
 }
-
 .social i{
     font-size: xx-large;
     line-height: 4vw;
     margin-right: 1vw;
 }
-
 .difuse{
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     line-height: 0.5vw;
     font-weight: bold;
 }
-
 .sectionTitle{
     margin: 2% 0 2% 0;
 }
-
 .d-block a{
     font-size: small;
     white-space: nowrap;
 }
-
 .overflowing{
     overflow: hidden;
 }
-
 .bannerWithText {
     position: relative;
     text-align: center;
     color: white;
     margin:1% 0 2% 0;
 }
-
 .textCentered {
     position: absolute;
     top: 50%;
@@ -69,4 +57,10 @@ footer{
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 4vw;
     border-radius: 10px;
+}
+.card-deck{
+    margin-bottom: 2% !important;
+}
+.card>img{
+    margin-top: 4%;
 }
