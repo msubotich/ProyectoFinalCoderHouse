@@ -1,0 +1,40 @@
+.bg-primary {
+    background-color: #0741ad !important;
+}
+
+.difuse{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    line-height: 0.5vw;
+    font-weight: bold;
+}
+.sectionTitle{
+    margin: 2% 0 2% 0;
+}
+.d-block{
+     a{
+        font-size: small;
+        white-space: nowrap;
+     }
+}
+.overflowing{
+    overflow: hidden;
+}
+.bannerWithText {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:1% 0 2% 0;
+}
+.textCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 4vw;
+    border-radius: 10px;
+}
+textarea{
+    resize: none;
+}
