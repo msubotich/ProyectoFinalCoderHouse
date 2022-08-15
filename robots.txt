@@ -1,0 +1,2 @@
+Sitemap: https://www.mselectromedicina.com/sitemap.xml
+User-agent: *

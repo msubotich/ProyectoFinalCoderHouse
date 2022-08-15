@@ -9,10 +9,13 @@ footer{
     line-height: 0.8vw;
     padding: 1%;
 }
+@mixin fontForIcons ($size){
+    font-size: $size;
+    line-height: 4vw;
+}
 
 .social i{
-    font-size: xx-large;
-    line-height: 4vw;
+    @include fontForIcons(xx-large);
     margin-right: 1em;
     margin-top: 1em;
 }
