@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding-inline: 1vw;
+  font-size: large;
+  transform: translateX(-5vw); }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    font-weight: bolder; }
+
+.navbar-light .navbar-nav .active {
+  color: gold !important; }
+
+/*Estilos para las navbars*/
+.bg-primary {
+  background-color: #0741ad !important; }
+
+.difuse {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  line-height: 0.5vw;
+  font-weight: bold; }
+
+.sectionTitle {
+  margin: 2% 0 2% 0; }
+
+.d-block a {
+  font-size: small;
+  white-space: nowrap; }
+
+.overflowing {
+  overflow: hidden; }
+
+.bannerWithText {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 1% 0 2% 0; }
+
+.textCentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 4vw;
+  border-radius: 10px; }
+
+textarea {
+  resize: none; }
+
+/*Estilos para cuadros de texto*/
+.card-deck {
+  margin-bottom: 2% !important; }
+
+.card {
+  max-height: 90vh; }
+  .card:hover {
+    animation: beat;
+    animation-duration: 0.75s; }
+  .card img {
+    margin-top: 4%; }
+
+/* animación para las tarjetas */
+@keyframes beat {
+  0% {
+    transform: scale(1); }
+  10% {
+    transform: scale(1.01); }
+  20% {
+    transform: scale(1.02); }
+  30% {
+    transform: scale(1.03); }
+  40% {
+    transform: scale(1.04); }
+  50% {
+    transform: scale(1.05); }
+  60% {
+    transform: scale(1.04); }
+  70% {
+    transform: scale(1.03); }
+  80% {
+    transform: scale(1.02); }
+  90% {
+    transform: scale(1.01); }
+  100% {
+    transform: scale(1); } }
+
+/*Estilos para tarjetas de productos y servicios*/
+a {
+  text-decoration: none !important; }
+
+footer {
+  line-height: 0.8vw;
+  padding: 1%; }
+
+.social i {
+  font-size: xx-large;
+  line-height: 4vw;
+  margin-right: 1em;
+  margin-top: 1em; }

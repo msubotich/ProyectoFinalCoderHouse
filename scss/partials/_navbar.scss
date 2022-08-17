@@ -1,0 +1,17 @@
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: white;
+            padding-inline: 1vw;
+            font-size: large;
+            transform: translateX(-5vw);
+            &:hover{
+                color: white;
+                font-weight: bolder;
+            }
+        }
+        .active{
+            color: gold !important;
+        }
+    }
+}

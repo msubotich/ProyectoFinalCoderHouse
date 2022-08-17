@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-final-desarrollo-web",
+  "version": "1.0.0",
+  "description": "Proyecto final para el curso de desarrollo web de Coder House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msubotich/ProyectoFinalCoderHouse.git"
+  },
+  "author": "Martin Subotich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msubotich/ProyectoFinalCoderHouse/issues"
+  },
+  "homepage": "https://github.com/msubotich/ProyectoFinalCoderHouse#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.3"
+  }
+}
