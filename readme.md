@@ -12,7 +12,6 @@
        El versionado se realizó con GIT y se publicó en <a href="https://github.com/msubotich/ProyectoFinalCoderHouse" target="_blank">Github</a><br>
        Se utilizó el <a href="https://mselectromedicina.000webhostapp.com/" target="_blank">servidor </a>propuesto por la cátedra. <br><br>
        <strong>No se creó una página 404 personalizada porque el servidor no permite implementarla en su plan gratuito</strong>  
+       Todas las imágenes pertencen a sus correspondientes autores. No se dará uso comercial a las mismas. 
     </p>
-    
-    <h3> Todas las imágenes pertencen a sus correspondientes autores. No se dará uso comercial a las mismas. </h3>
 </body>
