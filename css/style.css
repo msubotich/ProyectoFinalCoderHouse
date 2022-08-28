@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Definición de paleta de colores*/
 .navbar-light .navbar-nav .nav-link {
   color: white;
   padding-inline: 1vw;
@@ -22,7 +23,7 @@
   font-weight: bold; }
 
 .sectionTitle {
-  margin: 2% 0 2% 0; }
+  margin: 2% auto 2% auto; }
 
 .d-block a {
   font-size: small;
@@ -87,6 +88,9 @@ textarea {
     transform: scale(1); } }
 
 /*Estilos para tarjetas de productos y servicios*/
+body {
+  background-color: rgba(255, 255, 255, 0.4); }
+
 a {
   text-decoration: none !important; }
 
@@ -99,3 +103,9 @@ footer {
   line-height: 4vw;
   margin-right: 1em;
   margin-top: 1em; }
+
+.btn-group {
+  margin: 1% 0 3% 10%; }
+
+#newsCarousel {
+  min-height: 40vh; }
