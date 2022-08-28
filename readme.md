@@ -11,7 +11,7 @@
        Los estilos personalizados se realizaron usando SASS.
        El versionado se realizó con GIT y se publicó en <a href="https://github.com/msubotich/ProyectoFinalCoderHouse" target="_blank">Github</a><br>
        Se utilizó el <a href="https://mselectromedicina.000webhostapp.com/" target="_blank">servidor </a>propuesto por la cátedra. <br><br>
-       <strong>No se creó una página 404 personalizada porque el servidor no permite implementarla en su plan gratuito</strong>  
+       <strong>No se creó una página 404 personalizada porque el servidor no permite implementarla en su plan gratuito</strong> <br><br> 
        Todas las imágenes pertencen a sus correspondientes autores. No se dará uso comercial a las mismas. 
     </p>
 </body>
