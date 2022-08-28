@@ -1,17 +1,17 @@
 .navbar-light {
     .navbar-nav {
         .nav-link {
-            color: white;
+            color: $inactivo;
             padding-inline: 1vw;
             font-size: large;
             transform: translateX(-5vw);
             &:hover{
-                color: white;
+                color: $inactivo;
                 font-weight: bolder;
             }
         }
         .active{
-            color: gold !important;
+            color: $activo !important;
         }
     }
 }

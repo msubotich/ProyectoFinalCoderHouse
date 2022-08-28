@@ -1,6 +1,18 @@
+/* Definición de paleta de colores*/
+
+$primario: #0741ad;
+$fondoTexto: rgba(255, 255, 255, 0.4);
+$activo: gold;
+$inactivo: white;
+$textoBanner: white;
+
 @import "partials/navbar";  /*Estilos para las navbars*/
 @import "partials/texts";   /*Estilos para cuadros de texto*/
 @import "partials/cards";   /*Estilos para tarjetas de productos y servicios*/
+
+body{
+    background-color: $fondoTexto;
+}
 
 a{
     text-decoration: none !important;
@@ -18,4 +30,12 @@ footer{
     @include fontForIcons(xx-large);
     margin-right: 1em;
     margin-top: 1em;
+}
+
+.btn-group{
+    margin: 1% 0 3% 10%;
+}
+
+#newsCarousel{
+    min-height: 40vh;
 }
